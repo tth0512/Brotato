@@ -1,0 +1,20 @@
+[System.Serializable]
+public enum PrimaryStats
+{
+    MaxHP,
+    HPRegeneration,
+    LifeSteal,
+    Damage,
+    MeleeDamage,
+    RangedDamage,
+    ElementalDamage,
+    AttackSpeed,
+    CriticalChance,
+    Engineering,
+    Range,
+    Armor,
+    Dodge,
+    Speed,
+    Luck,
+    Harvesting
+}
