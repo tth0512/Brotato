@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    // Từ điển lưu trữ toàn bộ chỉ số của nhân vật
+    
     private Dictionary<PlayerStatType, float> stats = new Dictionary<PlayerStatType, float>();
 
 
     private void Awake()
     {
-        // Khởi tạo giá trị mặc định cho tất cả chỉ số bằng 0
+   
         foreach (PlayerStatType type in System.Enum.GetValues(typeof(PlayerStatType)))
         {
             stats[type] = 0f;
