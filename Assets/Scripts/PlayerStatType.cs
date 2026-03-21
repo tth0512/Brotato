@@ -20,6 +20,7 @@ public enum PlayerStatType
     Harvesting,
 
     // DLC Stats
+    Curse,
     // Add Later
 
 

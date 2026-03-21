@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0917fa3f7608124485f96082639985b, type: 3}
+  m_Name: Anchor
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  WeaponName: Anchor
+  weaponClasses: 0b00000006000000
+  hasSpecialEffect: 0
+  SpecialEffectClass: 
+  weaponPrefab: {fileID: 0}
+  weaponSprite: {fileID: 4301844918096825189, guid: f64ad965483ca4b43b07da4276bd22dc, type: 3}
+  tierStats:
+  - tierLevel: 1
+    baseDamage: 45
+    attackSpeed: 1.92
+    statScalings:
+    - playerStatType: 4
+      scalePercentage: 100
+    - playerStatType: 16
+      scalePercentage: 65
+    criticalDamage: 1.5
+    criticalChance: 3
+    range: 175
+    knockback: 10
+    lifesteal: 0
+    basePrice: 51
+  - tierLevel: 2
+    baseDamage: 70
+    attackSpeed: 1.86
+    statScalings:
+    - playerStatType: 4
+      scalePercentage: 125
+    - playerStatType: 16
+      scalePercentage: 90
+    criticalDamage: 1.5
+    criticalChance: 3
+    range: 200
+    knockback: 10
+    lifesteal: 0
+    basePrice: 95
